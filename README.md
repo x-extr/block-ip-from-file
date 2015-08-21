@@ -1,2 +1,3 @@
-# block ip from file
-Hello Every Body Today I Will Show You Script Very Easy For Block Multi IP Just From TXT File :D
+# block Multi IP Just By FILE.TXT
+
+Hello Bro Today I Want To Show Easy <h1>Trip</h1>
