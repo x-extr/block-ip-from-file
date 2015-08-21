@@ -5,7 +5,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
 // Here The Script Take The IP Of The Visitor And Save It In blocked_ips.txt 
 $ip = $_SERVER['REMOTE_ADDR'];
 $myfile = fopen("blocked_ips.txt", "a+") or die("Unable to open file!");
-$txt = "$ip\n";
+$txt = "\n$ip";
 fwrite($myfile, $txt);
 fclose($myfile);
 
