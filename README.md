@@ -10,9 +10,8 @@ You Can Change To Any Name !! . But You Need To Change All The Script For Exampl
 1 - Change The Name <h6>We Preferre To Dont Change Any Thing ;) </h6>
 $myfile = fopen("listofbanned.txt", "a+") 
 
-and in line number 14
+<p>and in line number 14</p>
 if ( !file_exists('listofbanned.txt') ) {
-
-also In The Line Number 22
+<p>also In The Line Number 22</p>
 $deny_ips = file('listofbanned.txt');
 
