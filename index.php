@@ -30,4 +30,7 @@ if ( (array_search($ip, $deny_ips))!== FALSE ) {
  echo 'Your IP adress ('.$ip.') was blocked!';
  exit;
 }
+else {
+    echo "Your It Not Banned";
+}
 ?>
