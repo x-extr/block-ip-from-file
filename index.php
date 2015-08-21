@@ -31,6 +31,6 @@ if ( (array_search($ip, $deny_ips))!== FALSE ) {
  exit;
 }
 else {
-    echo "Your It Not Banned";
+    echo "Your IP It Not Banned In Our Website";
 }
 ?>
